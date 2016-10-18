@@ -59,11 +59,11 @@ export default {
         line-height: 200px;
       }
       .slide1 {
-        background-color: #0089dc;
+        background-color: green;
         color: #fff;
       }
       .slide2 {
-        background-color: #ffd705;
+        background-color: blue;
         color: #000;
       }
       .slide3 {
