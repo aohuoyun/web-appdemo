@@ -18,11 +18,14 @@
 <script>
 import {Toast} from 'mint-ui'
 export default {
-  name: 'hello',
+  
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components:{
+    Toast
   },
   methods:{
     openToast(){
@@ -59,11 +62,11 @@ export default {
         line-height: 200px;
       }
       .slide1 {
-        background-color: green;
+        background-color: #0089dc;
         color: #fff;
       }
       .slide2 {
-        background-color: blue;
+        background-color: #ffd705;
         color: #000;
       }
       .slide3 {

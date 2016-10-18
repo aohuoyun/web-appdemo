@@ -22,4 +22,4 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 window.router=router;
-window.prototype.extendApi=ApiConfig
+Vue.prototype.extendApi=ApiConfig
