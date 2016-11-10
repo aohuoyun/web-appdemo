@@ -1,4 +1,5 @@
 var path = require('path')
+var commoncss = require('./common-css')
 var postcss = require('postcss')
 
 exports.postfactory = function (opts) {
